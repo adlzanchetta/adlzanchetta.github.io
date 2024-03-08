@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1024"
+   height="1024"
+   viewBox="0 0 1024 1024"
+   fill="none"
+   version="1.1"
+   id="svg4"
+   sodipodi:docname="logo-github.svg"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs8" />
+  <sodipodi:namedview
+     id="namedview6"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="0.53999756"
+     inkscape:cx="231.48253"
+     inkscape:cy="611.11387"
+     inkscape:window-width="1858"
+     inkscape:window-height="1043"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer2" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Layer 2"
+     style="display:inline">
+    <circle
+       style="fill:#e6e6e6;fill-rule:evenodd;stroke-width:1.00938"
+       id="path301"
+       cx="512.78442"
+       cy="512.54572"
+       r="507.3446" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer1"
+     inkscape:label="Layer 1"
+     style="display:inline"
+     sodipodi:insensitive="true">
+    <path
+       fill-rule="evenodd"
+       clip-rule="evenodd"
+       d="m 513.29066,58.05974 c -253.902,0 -459.551132,205.64913 -459.551132,459.55113 0,203.35137 131.546512,375.1086 314.218082,435.99919 22.97756,4.02107 31.59414,-9.76549 31.59414,-21.82874 0,-10.91434 -0.57444,-47.10399 -0.57444,-85.5914 -115.46222,21.25424 -145.33304,-28.14751 -154.52406,-53.99726 -5.16995,-13.21209 -27.57307,-53.99725 -47.10399,-64.91159 -16.08429,-8.61659 -39.06185,-29.87083 -0.57444,-30.44527 36.18965,-0.57443 62.0394,33.31746 70.65598,47.104 41.3596,69.5071 107.42008,49.97618 133.84427,37.91296 4.02107,-29.87082 16.08429,-49.97618 29.29638,-61.46496 -102.25012,-11.48878 -209.09576,-51.12506 -209.09576,-226.90337 0,-49.97618 17.80761,-91.33578 47.10399,-123.50436 -4.59551,-11.48878 -20.6798,-58.59277 4.59551,-121.78105 0,0 38.48741,-12.06322 126.37656,47.10399 36.76409,-10.3399 75.82594,-15.50985 114.88778,-15.50985 39.06185,0 78.12369,5.16995 114.88778,15.50985 87.88916,-59.74165 126.37656,-47.10399 126.37656,-47.10399 25.27532,63.18828 9.19103,110.29227 4.59552,121.78105 29.29638,32.16858 47.10399,72.95374 47.10399,123.50436 0,176.35275 -107.42008,215.41459 -209.6702,226.90337 16.65872,14.36097 31.0197,41.93404 31.0197,85.01696 0,61.46496 -0.57444,110.86671 -0.57444,126.37656 0,12.06325 8.61658,26.42425 31.59414,21.82874 181.52271,-60.89059 313.06925,-233.22226 313.06925,-435.99919 0,-253.902 -205.64918,-459.55113 -459.55117,-459.55113 z"
+       fill="#1b1f23"
+       id="path2"
+       style="stroke-width:57.4439" />
+  </g>
+</svg>

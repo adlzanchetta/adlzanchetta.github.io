@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkadlzanchetta_github_io=self.webpackChunkadlzanchetta_github_io||[]).push([[5088],{6968:a=>{a.exports=JSON.parse('{"label":"docusaurus","permalink":"/es/blog/tags/docusaurus","allTagsPath":"/es/blog/tags","count":4,"unlisted":false}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkadlzanchetta_github_io=self.webpackChunkadlzanchetta_github_io||[]).push([[7248],{4936:a=>{a.exports=JSON.parse('{"label":"hola","permalink":"/pt/blog/tags/hola","allTagsPath":"/pt/blog/tags","count":1,"unlisted":false}')}}]);
