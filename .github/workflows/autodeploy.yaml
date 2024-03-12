@@ -16,7 +16,7 @@ jobs:
         with:
           node-version: '20.11'
       - run: npm install
-      - run: GIT_USER=${{ secrets.PUBLISHER_NAME }} GIT_PASS=${{ secrets.PUBLISHER_TOKEN }} GIT_USER_EMAIL={{ secrets.PUBLISHER_EMAIL }} npm run deploy
+      - run: GIT_USER=${{ secrets.PUBLISHER_NAME }} GIT_PASS=${{ secrets.PUBLISHER_TOKEN }} GIT_USER_EMAIL=${{ secrets.PUBLISHER_EMAIL }} npm run deploy
       - uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
