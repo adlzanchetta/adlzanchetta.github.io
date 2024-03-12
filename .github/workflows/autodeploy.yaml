@@ -1,0 +1,23 @@
+name: autodeploy
+run-name: If it builds, it pushes to main branch and deploys to production
+
+on:
+  push:
+    branches-ignore:
+      - main
+
+jobs:
+
+  check-build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20.11'
+      - run: npm install
+      - run: GIT_USER=${{ secrets.PUBLISHER_NAME }} GIT_PASS=${{ secrets.PUBLISHER_TOKEN }} GIT_USER_EMAIL={{ secrets.PUBLISHER_EMAIL }} npm run deploy
+      - uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: main

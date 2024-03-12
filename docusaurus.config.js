@@ -67,18 +67,22 @@ const config = {
         title: 'Andre D. L. Zanchetta',
         items: [
           {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            to: '/about',
             position: 'left',
-            label: 'Portfolio',
+            label: 'Who!?'
           }, {
             to: '/resume',
             position: 'left',
             label: 'Resume'
           }, {
+            type: 'docSidebar',
+            sidebarId: 'tutorialSidebar',
+            position: 'left',
+            label: 'Portfolio'
+          }, {
             href: '/contact',
             label: 'Contact',
-            position: 'left',
+            position: 'left'
           }, {
             type: 'html',
             position: 'right',
