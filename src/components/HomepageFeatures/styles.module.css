@@ -25,6 +25,7 @@ div.skillsBox {
   flex-direction: column;
   align-self: center;
   max-width: 23rem;
+  min-width: 18rem;
   padding: 1rem;
   margin: 1rem;
   border-radius: 10px;

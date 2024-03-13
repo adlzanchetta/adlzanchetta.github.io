@@ -31,11 +31,11 @@ const FeatureList = [
     title: 'Altogether',
     Svg: require('@site/static/img/altogether_tower.svg').default,
     skills: [
-      ['Docker', 'CI/CD'],
+      ['Docker', 'CI / CD'],
       ['Design patterns'],
       ['Software engineering'],
       ['ML / AI', 'Git'],
-      ['Unit / end-to-end tests'],
+      ['Unit / end-to-end testing'],
       ["There is 'I' in 'integration'!"]
     ],
   },
