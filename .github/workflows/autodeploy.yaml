@@ -12,10 +12,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: echo "Testing env var AB = $AB and CD = $CD"
-        env:
-          AB: ${{ secrets.PUBLISHER_NAME }}
-          CD: "456"
       - uses: actions/setup-node@v4
         with:
           node-version: '20.11'

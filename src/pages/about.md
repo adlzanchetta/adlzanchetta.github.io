@@ -14,8 +14,8 @@ Andre D. L. Zanchetta (a.k.a. *adlzanchetta*) is a full-stack software engineer 
 
 Andre holds a Ph.D. degree in Hydroinformatics from McMaster University (Canada) and a Master’s degree in the same field from The University of Iowa (USA). During his postgraduate programs, he delved into various computational technologies, focusing on data visualization and machine learning to model, forecast, and communicate critical hydrological phenomena like floods.
 
-Fluent in multiple programming languages including Javascript, Python, Java, C, C++, PHP, Bash, and more, Andre can effortlessly communicate with computers. He is also multilingual with proficiency in English, Spanish, Portuguese, and is currently improving his French.
+Fluent in multiple programming languages including Javascript, Python, Java, C, C++, PHP, Bash, and more, Andre can also communicate with human beings in English, Spanish, Portuguese, and (work in progress) French.
 
-When not in front of the computer, Andre can be found riding his bicycle, walking some trail, in an online game, or watching some blockbuster or well-unknown movie. He values a good sense of humor and the habit of continuous learning. By the way, he is, at this exact moment, trying to improve his skills in writing about himself in the third person."
+When not in front of the computer, Andre can be found riding his bicycle, walking some trail, in an online game, or watching some blockbuster or well-unknown movie. He values a good sense of humor and the habit of continuous learning. Right now he is trying to improve his skills in writing about himself in the third person.
 
 </div>
