@@ -2,14 +2,13 @@
 title: About
 ---
 
+import imageUrl from '/static/img/face_focus_gradient_small.png';
 import styles from "../css/about.module.css"
 
 # About
 
 <div >
-    <img src="img/face_focus_gradient_small.png" className={styles.photo} /> 
-
-<!-- ![face](/img/face_focus_gradient_small.png) -->
+    <img src={imageUrl} className={styles.photo} /> 
 
 Andre D. L. Zanchetta (a.k.a. *adlzanchetta*) is a full-stack software engineer with more than 10 years in the world of web development. He looks forward to facing new challenges and staying updated with cutting-edge technologies. Currently, he is a collaborator at NModes, a company specialized in developing chatbots and solutions involving natural language processing (NLP).
 
