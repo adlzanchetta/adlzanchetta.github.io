@@ -18,15 +18,14 @@ import ToggleMoreInfo from '../components/ResumePage/ToggleMoreInfo.js';
   At: *Toronto - Ontario, Canada* (remotely)
 </BasicInfo>
 <ToggleMoreInfo dict_of_lists={{
-  "Responsabilities": [
+  "Responsibilities": [
       "Plan and implement RESTful APIs",
       "Design, implement and maintain SQL databases",
       "Automate communication with large language models (LLM) through prompt engineering and scripting",
       "Activelly participate in the selection and training of new collaborators"],
   "Tech stack - frontend": [
       "ReactJS + Recoil framework",
-      "Tailwind CSS (for styling)",
-      "Vercel hosting (for continuous deployment)"],
+      "Tailwind CSS (for styling)"],
   "Tech stack - backend": [
       "ExpressJS (for RESTful APIs in NodeJS)",
       "Flask (for RESTful APIs in Python)",
@@ -35,7 +34,7 @@ import ToggleMoreInfo from '../components/ResumePage/ToggleMoreInfo.js';
       "PM2 (process management)",
       "OpenAI Python library"],
   "Engineering and integration": [
-      "Vercel (for continuous delivery)",
+      "Vercel hosting (for continuous delivery)",
       "AWS cloud server administration",
       "jest (unit testing)",
       "Cypress (end-to-end testing)",
@@ -51,7 +50,7 @@ import ToggleMoreInfo from '../components/ResumePage/ToggleMoreInfo.js';
   At: *Winnipeg - Manitoba, Canada* (remotely)
 </BasicInfo>
 <ToggleMoreInfo dict_of_lists={{
-  "Responsabilities": [
+  "Responsibilities": [
      "Design and implement research tools for a computational hydrologic modelling lab",
      "Set up and maintain cloud infrastructure of Linux-based servers",
      "Modify third-party open-source applications towards the lab's specific needs",
@@ -77,7 +76,7 @@ import ToggleMoreInfo from '../components/ResumePage/ToggleMoreInfo.js';
   At: *Hamilton - Ontario, Canada* (on-site)
 </BasicInfo>
 <ToggleMoreInfo dict_of_lists={{
-  "Responsabilities": [
+  "Responsibilities": [
     "Perform research activities regarding the use of different machine learning techniques for flash flood forecasting",
     "Redesign, reimplement and maintain the website of the research lab I was part of",
     "Attend conferences and present partial or final results or research activities",
@@ -100,7 +99,7 @@ import ToggleMoreInfo from '../components/ResumePage/ToggleMoreInfo.js';
   At: *Iowa City - Iowa, USA* (on-site)<br />
 </BasicInfo>
 <ToggleMoreInfo dict_of_lists={{
-  "Responsabilities": [
+  "Responsibilities": [
     "Develop and maintain real-time systems related with environmental datasets",
     "Expand and improve functionalities of the numerical model used by the Iowa Flood Center's flood prediction system",
     "Enhance the availability of critical real-time pipelines",
