@@ -12,13 +12,21 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - run: echo "Testing env var AB = $AB and CD = $CD"
+        env:
+          AB: ${{ secrets.PUBLISHER_NAME }}
+          CD: "456"
       - uses: actions/setup-node@v4
         with:
           node-version: '20.11'
       - run: npm install
       - run: git config --global user.email "${{ secrets.PUBLISHER_EMAIL }}"
       - run: git config --global user.name "${{ secrets.PUBLISHER_NAME }}"
-      - run: GIT_USER=${{ secrets.PUBLISHER_NAME }} GIT_PASS=${{ secrets.PUBLISHER_TOKEN }} GIT_USER_EMAIL=${{ secrets.PUBLISHER_EMAIL }} npm run deploy
+      - run: npm run deploy
+        env:
+          GIT_USER: ${{ secrets.PUBLISHER_NAME }}
+          GIT_PASS: ${{ secrets.PUBLISHER_TOKEN }}
+          GIT_USER_EMAIL: ${{ secrets.PUBLISHER_EMAIL }}
       - uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
