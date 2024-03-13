@@ -9,3 +9,37 @@
   height: 200px;
   width: 200px;
 }
+
+div.skillsVault {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+[data-theme='dark'] div.skillsBox {
+  background-color: #505050;
+}
+
+div.skillsBox {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  max-width: 23rem;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 10px;
+  background-color: #e5e5e5;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+div.skillsBox div.skillsLine {
+  display: flex
+}
+
+div.skillsBox div.skillsLine div.skill {
+  flex-basis: 100%;
+  text-align: center;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
