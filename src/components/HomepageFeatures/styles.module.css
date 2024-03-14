@@ -21,15 +21,15 @@ div.skillsVault {
 }
 
 div.skillsBox {
+  margin: 0rem 1rem 1rem 1rem;
   display: flex;
   flex-direction: column;
   align-self: center;
-  max-width: 23rem;
-  min-width: 18rem;
+  max-width: 21rem;
+  min-width: 16rem;
   padding: 1rem;
-  margin: 1rem;
   border-radius: 10px;
-  background-color: #e5e5e5;
+  background-color: #eAeAeA;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
 }
