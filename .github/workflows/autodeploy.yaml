@@ -23,6 +23,7 @@ jobs:
           GIT_USER: ${{ secrets.PUBLISHER_NAME }}
           GIT_PASS: ${{ secrets.PUBLISHER_TOKEN }}
           GIT_USER_EMAIL: ${{ secrets.PUBLISHER_EMAIL }}
+          GTAG_ID: ${{ secrets.GTAG_ID }}
       - uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
